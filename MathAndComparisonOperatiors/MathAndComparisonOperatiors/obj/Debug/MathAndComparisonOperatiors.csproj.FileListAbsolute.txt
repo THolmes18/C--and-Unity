@@ -1,0 +1,7 @@
+C:\Users\T'ana\Documents\GitHub\The-Tech-Academy-C-Sharp-and-Unity-Projects\MathAndComparisonOperatiors\MathAndComparisonOperatiors\bin\Debug\MathAndComparisonOperatiors.exe.config
+C:\Users\T'ana\Documents\GitHub\The-Tech-Academy-C-Sharp-and-Unity-Projects\MathAndComparisonOperatiors\MathAndComparisonOperatiors\bin\Debug\MathAndComparisonOperatiors.exe
+C:\Users\T'ana\Documents\GitHub\The-Tech-Academy-C-Sharp-and-Unity-Projects\MathAndComparisonOperatiors\MathAndComparisonOperatiors\bin\Debug\MathAndComparisonOperatiors.pdb
+C:\Users\T'ana\Documents\GitHub\The-Tech-Academy-C-Sharp-and-Unity-Projects\MathAndComparisonOperatiors\MathAndComparisonOperatiors\obj\Debug\MathAndComparisonOperatiors.csproj.AssemblyReference.cache
+C:\Users\T'ana\Documents\GitHub\The-Tech-Academy-C-Sharp-and-Unity-Projects\MathAndComparisonOperatiors\MathAndComparisonOperatiors\obj\Debug\MathAndComparisonOperatiors.csproj.CoreCompileInputs.cache
+C:\Users\T'ana\Documents\GitHub\The-Tech-Academy-C-Sharp-and-Unity-Projects\MathAndComparisonOperatiors\MathAndComparisonOperatiors\obj\Debug\MathAndComparisonOperatiors.exe
+C:\Users\T'ana\Documents\GitHub\The-Tech-Academy-C-Sharp-and-Unity-Projects\MathAndComparisonOperatiors\MathAndComparisonOperatiors\obj\Debug\MathAndComparisonOperatiors.pdb
