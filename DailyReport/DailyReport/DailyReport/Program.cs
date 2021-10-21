@@ -25,17 +25,12 @@ namespace DailyReportAssignment
             Console.WriteLine("You're on: " + course);
             Console.ReadLine();
 
-            Console.WriteLine("What page number are you on?");
-            string page = Console.ReadLine();
-            Console.WriteLine("You're on page: " + page);
-            Console.ReadLine();
+            Console.WriteLine("What page number are you on?"); //int variable
+            int page = Convert.ToInt32(Console.ReadLine());
+
 
             Console.WriteLine("Do you need help?");
-            string help = Console.ReadLine();
-            bool isHelp = false;
-            bool isNoHelp = true;
-            Console.WriteLine();
-            Console.ReadLine();
+            bool isHelp = Convert.ToBoolean(Console.ReadLine()); //pass in arguments inside ().
 
             Console.WriteLine("Were there any positive experiences you'd like to share? Please give specifics.");
             string positiveFeedback = Console.ReadLine();
@@ -47,16 +42,16 @@ namespace DailyReportAssignment
             Console.WriteLine("Thank you for your experiences!");
             Console.ReadLine();
 
-            Console.WriteLine("How many hours did you study today?");
-            string hours = Console.ReadLine();
-            Console.WriteLine("You studied for: " + hours);
-            Console.ReadLine();
+            Console.WriteLine("How many hours did you study today?"); //int variable
+            int hours = Convert.ToInt32(Console.ReadLine());
 
 
             Console.WriteLine("Thank you for your answers. An instructor will respond to this shortly. Have a great day!");
             Console.ReadLine();
 
 
+
+            //class accesses a method(convert, console is a class) (ReadLine is a method)
 
 
 
