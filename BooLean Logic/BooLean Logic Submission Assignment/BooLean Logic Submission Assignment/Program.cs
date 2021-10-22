@@ -10,6 +10,8 @@ namespace BooLean_Logic_Submission_Assignment
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("What is your age?");
+
         }
     }
 }
