@@ -1,0 +1,7 @@
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\DailyReport\BooLeanLogic\BooLeanLogic\bin\Debug\BooLeanLogic.exe.config
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\DailyReport\BooLeanLogic\BooLeanLogic\bin\Debug\BooLeanLogic.exe
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\DailyReport\BooLeanLogic\BooLeanLogic\bin\Debug\BooLeanLogic.pdb
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\DailyReport\BooLeanLogic\BooLeanLogic\obj\Debug\BooLeanLogic.csproj.AssemblyReference.cache
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\DailyReport\BooLeanLogic\BooLeanLogic\obj\Debug\BooLeanLogic.csproj.CoreCompileInputs.cache
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\DailyReport\BooLeanLogic\BooLeanLogic\obj\Debug\BooLeanLogic.exe
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\DailyReport\BooLeanLogic\BooLeanLogic\obj\Debug\BooLeanLogic.pdb
