@@ -10,69 +10,69 @@ namespace BooLean_Logic_Submission_Assignment
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("What is your age?");
-            //int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("What is your age?");
+            int age = Convert.ToInt32(Console.ReadLine());
 
-            //if (age == 16)
-            //{
-            //    Console.WriteLine("You are old enough to drive.");
-            //}
+            if (age == 16)
+            {
+                Console.WriteLine("You are old enough to drive.");
+            }
 
-            //else if (age < 16)
-            //{
-            //    Console.WriteLine();
-            //}
+            else if (age < 16)
+            {
+                Console.WriteLine();
+            }
 
-            //else if (age > 16)
-            //{
-            //    Console.WriteLine();
-            //}
+            else if (age > 16)
+            {
+                Console.WriteLine();
+            }
 
-            //Console.ReadLine();
+            Console.ReadLine();
 
 
             Console.WriteLine("Have you ever had a DUI? Please answer true or false.");
-            //only problem left to be solved for this Program!!!!!!!!!!!!!!!!!!!
+            
             Console.ReadLine();
 
-            //Console.WriteLine("How many speeding tickets do you have?");
-            //int speed = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("How many speeding tickets do you have?");
+            int speed = Convert.ToInt32(Console.ReadLine());
 
-            //if (speed == 4)
-            //{
-            //    Console.WriteLine("Thank you for your input.");
-            //}
+            if (speed == 4)
+            {
+                Console.WriteLine("Thank you for your input.");
+            }
 
-            //else if (speed > 4)
-            //{
-            //    Console.WriteLine("Thank you for your input.");
-            //}
+            else if (speed > 4)
+            {
+                Console.WriteLine("Thank you for your input.");
+            }
 
-            //Console.ReadLine();
-            
-            //Console.WriteLine("Qualified?");
+            Console.ReadLine();
 
-            //if (age > 15)
-            //{
-            //    Console.WriteLine("true");
-            //}
+            Console.WriteLine("Qualified?");
 
-            //else if (age < 15)
-            //{
-            //    Console.WriteLine("false");
-            //}
+            if (age is > 15 && no DUI && > 3 speed)
+            {
+                Console.WriteLine("true");
+            }
 
-            //else if (speed > 3)
-            //{
-            //    Console.WriteLine("false");
-            //}
+            else if (age < 15)
+            {
+                Console.WriteLine("false");
+            }
 
-            //else if (speed < 3)
-            //{
-            //    Console.WriteLine("true");
-            //}
+            else if (speed > 3)
+            {
+                Console.WriteLine("false");
+            }
 
-            //Console.ReadLine();
+            else if (speed < 3)
+            {
+                Console.WriteLine("true");
+            }
+
+            Console.ReadLine();
         }
     }
 }

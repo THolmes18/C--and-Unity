@@ -5,3 +5,10 @@ C:\Users\T'ana\Documents\GitHub\C--and-Unity\DailyReport\Math and Comparison Ope
 C:\Users\T'ana\Documents\GitHub\C--and-Unity\DailyReport\Math and Comparison Operators Assignment_1\Math and Comparison Operators Assignment_1\obj\Debug\Math and Comparison Operators Assignment_1.csproj.CoreCompileInputs.cache
 C:\Users\T'ana\Documents\GitHub\C--and-Unity\DailyReport\Math and Comparison Operators Assignment_1\Math and Comparison Operators Assignment_1\obj\Debug\Math and Comparison Operators Assignment_1.exe
 C:\Users\T'ana\Documents\GitHub\C--and-Unity\DailyReport\Math and Comparison Operators Assignment_1\Math and Comparison Operators Assignment_1\obj\Debug\Math and Comparison Operators Assignment_1.pdb
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\Math and Comparison Operators Assignment_1\Math and Comparison Operators Assignment_1\obj\Debug\Math and Comparison Operators Assignment_1.csproj.AssemblyReference.cache
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\Math and Comparison Operators Assignment_1\Math and Comparison Operators Assignment_1\obj\Debug\Math and Comparison Operators Assignment_1.csproj.CoreCompileInputs.cache
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\Math and Comparison Operators Assignment_1\Math and Comparison Operators Assignment_1\obj\Debug\Math and Comparison Operators Assignment_1.exe
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\Math and Comparison Operators Assignment_1\Math and Comparison Operators Assignment_1\obj\Debug\Math and Comparison Operators Assignment_1.pdb
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\Math and Comparison Operators Assignment_1\Math and Comparison Operators Assignment_1\bin\Debug\Math and Comparison Operators Assignment_1.exe.config
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\Math and Comparison Operators Assignment_1\Math and Comparison Operators Assignment_1\bin\Debug\Math and Comparison Operators Assignment_1.exe
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\Math and Comparison Operators Assignment_1\Math and Comparison Operators Assignment_1\bin\Debug\Math and Comparison Operators Assignment_1.pdb
