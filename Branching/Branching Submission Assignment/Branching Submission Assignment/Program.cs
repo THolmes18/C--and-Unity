@@ -10,10 +10,8 @@ namespace Branching_Submission_Assignment
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Welcome to Package Express. Please follow the instructions below.");
+            Console.WriteLine("Welcome to Package Express. Please follow the instructions below.");
 
-            int packageWeight = 50;
-            int heavyPackage = 51;
         
 
             Console.WriteLine("Please enter the package weight:");
