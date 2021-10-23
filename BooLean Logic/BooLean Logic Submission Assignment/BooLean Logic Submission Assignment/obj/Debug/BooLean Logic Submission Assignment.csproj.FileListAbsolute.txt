@@ -4,3 +4,4 @@ C:\Users\T'ana\Documents\GitHub\C--and-Unity\BooLean Logic\BooLean Logic Submiss
 C:\Users\T'ana\Documents\GitHub\C--and-Unity\BooLean Logic\BooLean Logic Submission Assignment\BooLean Logic Submission Assignment\bin\Debug\BooLean Logic Submission Assignment.pdb
 C:\Users\T'ana\Documents\GitHub\C--and-Unity\BooLean Logic\BooLean Logic Submission Assignment\BooLean Logic Submission Assignment\obj\Debug\BooLean Logic Submission Assignment.exe
 C:\Users\T'ana\Documents\GitHub\C--and-Unity\BooLean Logic\BooLean Logic Submission Assignment\BooLean Logic Submission Assignment\obj\Debug\BooLean Logic Submission Assignment.pdb
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\BooLean Logic\BooLean Logic Submission Assignment\BooLean Logic Submission Assignment\obj\Debug\BooLean Logic Submission Assignment.csproj.AssemblyReference.cache

@@ -4,3 +4,4 @@ C:\Users\T'ana\Documents\GitHub\C--and-Unity\Branching\Branching Submission Assi
 C:\Users\T'ana\Documents\GitHub\C--and-Unity\Branching\Branching Submission Assignment\Branching Submission Assignment\obj\Debug\Branching Submission Assignment.csproj.CoreCompileInputs.cache
 C:\Users\T'ana\Documents\GitHub\C--and-Unity\Branching\Branching Submission Assignment\Branching Submission Assignment\obj\Debug\Branching Submission Assignment.exe
 C:\Users\T'ana\Documents\GitHub\C--and-Unity\Branching\Branching Submission Assignment\Branching Submission Assignment\obj\Debug\Branching Submission Assignment.pdb
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\Branching\Branching Submission Assignment\Branching Submission Assignment\obj\Debug\Branching Submission Assignment.csproj.AssemblyReference.cache
