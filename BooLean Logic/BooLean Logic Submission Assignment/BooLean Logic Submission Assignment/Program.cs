@@ -13,66 +13,55 @@ namespace BooLean_Logic_Submission_Assignment
             Console.WriteLine("What is your age?");
             int age = Convert.ToInt32(Console.ReadLine());
 
-            if (age == 16)
-            {
-                Console.WriteLine("You are old enough to drive.");
-            }
-
-            else if (age < 16)
-            {
-                Console.WriteLine();
-            }
-
-            else if (age > 16)
-            {
-                Console.WriteLine();
-            }
-
-            Console.ReadLine();
-
 
             Console.WriteLine("Have you ever had a DUI? Please answer true or false.");
-            
+            bool isDUI = Convert.ToBoolean(Console.ReadLine());
+
             Console.ReadLine();
 
             Console.WriteLine("How many speeding tickets do you have?");
             int speed = Convert.ToInt32(Console.ReadLine());
 
-            if (speed == 4)
-            {
-                Console.WriteLine("Thank you for your input.");
-            }
-
-            else if (speed > 4)
-            {
-                Console.WriteLine("Thank you for your input.");
-            }
-
-            Console.ReadLine();
+        
 
             Console.WriteLine("Qualified?");
 
-            if (age is > 15 && no DUI && > 3 speed)
+            if (age > 15 && isDUI == false && speed < 3) //if ALL necessary conditions
             {
                 Console.WriteLine("true");
             }
 
-            else if (age < 15)
+            else //all other circumstances
             {
                 Console.WriteLine("false");
             }
 
-            else if (speed > 3)
-            {
-                Console.WriteLine("false");
-            }
-
-            else if (speed < 3)
-            {
-                Console.WriteLine("true");
-            }
 
             Console.ReadLine();
+
+            //Console.WriteLine(true && false); //AND
+            //Console.WriteLine(true && true);
+            //Console.WriteLine(false && false);
+
+            //Console.WriteLine(true || true);
+            //Console.WriteLine(true || false); //only 1 needs to be true (OR)
+            //Console.WriteLine(false || false);
+
+            //Console.WriteLine(true == true);
+            //Console.WriteLine(false == true);
+            //Console.WriteLine(false == false); //equal to
+
+            //Console.WriteLine(true != true); //Not equal
+            //Console.WriteLine(true != false);
+            //Console.WriteLine(false != false);
+
+            //Console.WriteLine(true ^ true); // XOR operator if 1 is true but not equal
+            //Console.WriteLine(true ^ false);
+            //Console.WriteLine(false ^ false);
+
         }
+
+
+    
     }
 }
