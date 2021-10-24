@@ -1,0 +1,7 @@
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\Loops\Loops\bin\Debug\Loops.exe.config
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\Loops\Loops\bin\Debug\Loops.exe
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\Loops\Loops\bin\Debug\Loops.pdb
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\Loops\Loops\obj\Debug\Loops.csproj.AssemblyReference.cache
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\Loops\Loops\obj\Debug\Loops.csproj.CoreCompileInputs.cache
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\Loops\Loops\obj\Debug\Loops.exe
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\Loops\Loops\obj\Debug\Loops.pdb
