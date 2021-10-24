@@ -13,7 +13,7 @@ namespace Loops
             Console.WriteLine("Guess a number?");
             int number = Convert.ToInt32(Console.ReadLine());
 
-            bool isGuessed = number == 12;
+            bool isGuessed = false;
             do //add before while and it will correct the while error.
             {
                 //switch statements starts with switch (what you want to check)
