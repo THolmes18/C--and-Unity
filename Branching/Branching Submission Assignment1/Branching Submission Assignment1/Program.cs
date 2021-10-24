@@ -31,16 +31,23 @@ namespace Branching_Submission_Assignment1
 
                 Console.WriteLine("Package length?");
                 int length = Convert.ToInt32(Console.ReadLine());
+                int total = width + height + length;
 
-                Console.WriteLine("Quote");
-                int Quote = height * width * length * weight / 100;
-                Console.WriteLine(Quote);
                 Console.ReadLine();
 
-
-
+                if (total > 50)
+                {
+                    Console.WriteLine("Package too big to be shipped via Package Express.");
+                    Console.ReadLine();
+                }
+                else
+                {
+                    Console.WriteLine("Quote");
+                    int Quote = height * width * length * weight / 100;
+                    Console.WriteLine(Quote);
+                    Console.ReadLine();
+                }
             }
-
         }
     }
 }
