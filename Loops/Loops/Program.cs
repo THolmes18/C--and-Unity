@@ -51,10 +51,17 @@ namespace Loops
                 }
 
             }
-            while (!isGuessed);
+            while (!isGuessed); //good to avoid while  loops it can be endless
 
             Console.Read();
-            
+
+            int i = 0;
+            while (i < 100)
+            {
+                Console.WriteLine(i);
+                i++; //add 2 numbers at a time.
+                Console.Read();
+            }
         }
     }
 }
