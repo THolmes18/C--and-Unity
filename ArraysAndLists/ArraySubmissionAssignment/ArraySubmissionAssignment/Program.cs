@@ -6,16 +6,19 @@ using System.Collections.Generic;
     {
         static void Main(string[] args)
         {
-        int[] numArray = new int[] { 1996, 2015, 2018, 2019, 2021 };
+
+        int[]yearArray = new int[5];  //declaring array
+        yearArray[0] = 1996;
+        yearArray[1] = 2015;
+        yearArray[2] = 2018;
+        yearArray[3] = 2019;
+        yearArray[4] = 2020;
+
+        yearArray[4] = 2019;
+
         string[] lifeLine = { "Born", "Graudated HS", "Graduated College", "Had a Daughter", "Had a Son" };
 
-        List<int> intList = new List<int>();
-        intList.Add{ "Accomplishment,"};
-          
-        
-       
-        
-        Console.WriteLine(intList[]);
+        Console.WriteLine(yearArray[4]);
         Console.ReadLine();
 
     }
