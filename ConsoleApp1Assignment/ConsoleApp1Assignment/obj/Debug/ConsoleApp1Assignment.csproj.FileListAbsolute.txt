@@ -1,0 +1,7 @@
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\ConsoleApp1Assignment\ConsoleApp1Assignment\bin\Debug\ConsoleApp1Assignment.exe.config
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\ConsoleApp1Assignment\ConsoleApp1Assignment\bin\Debug\ConsoleApp1Assignment.exe
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\ConsoleApp1Assignment\ConsoleApp1Assignment\bin\Debug\ConsoleApp1Assignment.pdb
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\ConsoleApp1Assignment\ConsoleApp1Assignment\obj\Debug\ConsoleApp1Assignment.csproj.AssemblyReference.cache
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\ConsoleApp1Assignment\ConsoleApp1Assignment\obj\Debug\ConsoleApp1Assignment.csproj.CoreCompileInputs.cache
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\ConsoleApp1Assignment\ConsoleApp1Assignment\obj\Debug\ConsoleApp1Assignment.exe
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\ConsoleApp1Assignment\ConsoleApp1Assignment\obj\Debug\ConsoleApp1Assignment.pdb

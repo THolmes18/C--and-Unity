@@ -1,0 +1,7 @@
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\Iteration\Iteration\bin\Debug\Iteration.exe.config
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\Iteration\Iteration\bin\Debug\Iteration.exe
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\Iteration\Iteration\bin\Debug\Iteration.pdb
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\Iteration\Iteration\obj\Debug\Iteration.csproj.AssemblyReference.cache
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\Iteration\Iteration\obj\Debug\Iteration.csproj.CoreCompileInputs.cache
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\Iteration\Iteration\obj\Debug\Iteration.exe
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\Iteration\Iteration\obj\Debug\Iteration.pdb
