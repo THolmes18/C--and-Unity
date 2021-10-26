@@ -25,9 +25,9 @@ class Program
         Console.WriteLine("Please select a number (0-4).");
         int userSelection = Convert.ToInt32(Console.ReadLine());
 
-        if (userSelection <=4 && userSelection >= 4)
+        if (userSelection <=4 && userSelection >= 0)
         {
-            Console.WriteLine(numArray[userSelection]);
+            Console.WriteLine(numArray [userSelection]);
         }
         else
         {
