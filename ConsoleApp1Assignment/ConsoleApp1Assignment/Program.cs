@@ -94,16 +94,23 @@ using System.Collections.Generic;
         //Console.Read();
 
         // 2 identical strings..and loop
-        string[] newArray = { "Hallowen", "Thanksgiving", "Birthday", "Christmas", "Birthday" };
-        Console.WriteLine("Please enter a number 0-4."); //user select
-        int userInput = Convert.ToInt32(Console.ReadLine());
-
-
+        
         List<string> names = new List<string>() { "Hallowen", "Thanksgiving", "Birthday", "Christmas", "Birthday" };
+        List<string> duplicate = new List<string>();
 
         foreach (string name in names)
         {    
                 Console.WriteLine(name);
+            if (duplicate.Contains(name)) //passed into the foreach loop
+            {
+                Console.WriteLine(name+ " has appeared already");
+            }
+            else
+            {
+                Console.WriteLine("Has not appeared yet.");
+            }
+            duplicate.Add(name);
+
         }
         Console.ReadLine();
 
