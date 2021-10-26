@@ -97,21 +97,15 @@ using System.Collections.Generic;
         string[] newArray = { "Hallowen", "Thanksgiving", "Birthday", "Christmas", "Birthday" };
         Console.WriteLine("Please enter a number 0-4."); //user select
         int userInput = Convert.ToInt32(Console.ReadLine());
-            
-            for (int i = 0; i++ < newArray.Length; i++) //starting value..how long are we doing the loop? then add
-            {
-               if (userInput <= 4)
-                {
-                    Console.WriteLine("Special Days: " + newArray[i++]);
-                }
-               else
-                {
-                Console.WriteLine("Your text isn't in the list.");
-                }
-            }
+
+
+        List<string> names = new List<string>() { "Hallowen", "Thanksgiving", "Birthday", "Christmas", "Birthday" };
+
+        foreach (string name in names)
+        {    
+                Console.WriteLine(name);
+        }
         Console.ReadLine();
-
-
 
     }
 }
