@@ -93,27 +93,25 @@ using System.Collections.Generic;
         //while (!isGuessed); //good to avoid while  loops it can be endless
         //Console.Read();
 
-        // 2 identical strings..part 5
-
-        List<int> testScores = new List<int>();
-        testScores.Add(98);
-        testScores.Add(99);
-        testScores.Add(81);
-        testScores.Add(72);
-        testScores.Add(70);
-        testScores.Add(81);
-        
-        string[] result = Array.FindAll(testScores);
-
-        foreach (int score in testScores)
-        {
-            if (score > 85)
+        // 2 identical strings..and loop
+        string[] newArray = { "Hallowen", "Thanksgiving", "Birthday", "Christmas", "Birthday" };
+        Console.WriteLine("Please enter a number 0-4."); //user select
+        int userInput = Convert.ToInt32(Console.ReadLine());
+            
+            for (int i = 0; i++ < newArray.Length; i++) //starting value..how long are we doing the loop? then add
             {
-                Console.WriteLine("Passing test score:" + score);
-
+               if (userInput <= 4)
+                {
+                    Console.WriteLine("Special Days: " + newArray[i++]);
+                }
+               else
+                {
+                Console.WriteLine("Your text isn't in the list.");
+                }
             }
-        }
         Console.ReadLine();
+
+
 
     }
 }
