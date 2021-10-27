@@ -5,35 +5,36 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine("Press any number to begin.");
+        List<int> rNumbers = new List<int>() { 20, 40, 60, 80, 100, 120 };
+        int userPick = Convert.ToInt32(Console.ReadLine());
 
-        //List<int> rNumbers = new List<int>() { 20, 40, 60, 80, 100, 120 };
-        //List<int> userPick = new List<int>();
+        Console.WriteLine("Pick a number.");
+        int numberOne = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("And another number..");
+        int numberTwo = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Dividing by the number you entered...");
+        int numberThree = numberOne / numberTwo;
+        Console.WriteLine(numberOne + " divided by " + numberTwo + " equals " + numberThree);
+        Console.ReadLine();
 
-        //foreach (int number in rNumbers)
-        //{
-        //    if (number <= 0)
-        //    {
-        //        Console.WriteLine();
-        //    }
-        //}
-        //Console.WriteLine("Pick a number to divide by.");
-        //Console.ReadLine();
+        
 
+        
         try //block of code to try
         {
-
-            Console.WriteLine("Pick a number.");
-            int numberOne = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("We're going to divide these numbers..");
-            int numberTwo = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Dividing by the number you entered...");
-            int numberThree = numberOne / numberTwo;
-            Console.WriteLine(numberOne + " divided by " + numberTwo + " equals " + numberThree);
+            foreach (int i in rNumbers)
+            {
+                    Console.WriteLine(i / userPick); 
+            }
+            Console.WriteLine("The list has been divided by the number chosen.");
             Console.ReadLine();
+
         }
         catch (FormatException ex)
         {
             Console.WriteLine(ex.Message);
+            return;
         }
         catch (DivideByZeroException ex) //block of code to handle errors
         {
