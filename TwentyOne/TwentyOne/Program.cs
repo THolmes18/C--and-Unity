@@ -11,34 +11,53 @@ namespace TwentyOne
         static void Main(string[] args)
         {
             Deck deck = new Deck();
-            deck = Shuffle(deck); //reassigning variable makes it shuffle (comment it out and it will stop shuffle)
-
+            int timesShuffled = 0;
+            //deck = Shuffle(deck); //reassigning variable makes it shuffle (comment it out and it will stop shuffle)
+            deck = Shuffle(deck, out timesShuffled, 3); //shuffles the deck 3 times
             foreach(Card card in deck.Cards)
             {
                 Console.WriteLine(card.Face + " of " + card.Suit);
             }
 
             Console.WriteLine(deck.Cards.Count);
+            Console.WriteLine("Times shuffled {0}", timesShuffled);
             Console.ReadLine();
         }
 
-        public static Deck Shuffle(Deck deck)
+        public static Deck Shuffle(Deck deck, out int timesShuffled, int times =1)
         {
-            List<Card> TempList = new List<Card>();
-            Random random = new Random();
-           
-            while (deck.Cards.Count > 0)
+            timesShuffled = 0;
+            for (int i = 0; i < times; i++)
             {
-                int randomIndex = random.Next(0, deck.Cards.Count);
-                TempList.Add(deck.Cards[randomIndex]);
-                deck.Cards.RemoveAt(randomIndex);
+                timesShuffled++;
+                List<Card> TempList = new List<Card>();
+                Random random = new Random();
+
+                while (deck.Cards.Count > 0)
+                {
+                    int randomIndex = random.Next(0, deck.Cards.Count);
+                    TempList.Add(deck.Cards[randomIndex]);
+                    deck.Cards.RemoveAt(randomIndex);
+                }
+                deck.Cards = TempList;
             }
-            deck.Cards = TempList;
             return deck;
+            
+          
         }
+
+        //public static Deck Shuffle(Deck deck, int times)
+        //{
+        //    for (int i = 0; i < times; i++)
+        //    {
+        //        deck = Shuffle(deck);
+        //    }
+        //    return deck;
+        //}
     }
 }
 
 //deck uses constructor which is a default
 //method has to be used apart of a class (shuffling)
 //static object program should be created if not use static
+//overload method helps when sharing
