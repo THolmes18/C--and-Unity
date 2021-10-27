@@ -5,9 +5,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Press any number to begin.");
-        List<int> rNumbers = new List<int>() { 20, 40, 60, 80, 100, 120 };
-        int userPick = Convert.ToInt32(Console.ReadLine());
+       
 
         Console.WriteLine("Pick a number.");
         int numberOne = Convert.ToInt32(Console.ReadLine());
@@ -23,6 +21,9 @@ class Program
         
         try //block of code to try
         {
+            Console.WriteLine("Press any number to begin.");
+            List<int> rNumbers = new List<int>() { 20, 40, 60, 80, 100, 120 };
+            int userPick = Convert.ToInt32(Console.ReadLine());
             foreach (int i in rNumbers)
             {
                     Console.WriteLine(i / userPick); 
