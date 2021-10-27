@@ -1,74 +1,49 @@
 ﻿using System;
+using System.Collections.Generic;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Guess a number?");
-        int number = Convert.ToInt32(Console.ReadLine());
-        bool isGuessed = false;
-        do //add before while and it will correct the while error.
-        {
-            //switch statements starts with switch (what you want to check)
-            switch (number)
-            {
-                case 62: //if number = 62
-                    Console.WriteLine("You Guessed 62. Try again.");
-                    Console.WriteLine("Guess a number?");
-                    number = Convert.ToInt32(Console.ReadLine());
-                    break;
 
-                case 29:
-                    Console.WriteLine("You guessed 29. Try again.");
-                    Console.WriteLine("Guess a number?");
-                    number = Convert.ToInt32(Console.ReadLine());
-                    break;
+        //List<int> rNumbers = new List<int>() { 20, 40, 60, 80, 100, 120 };
+        //List<int> userPick = new List<int>();
 
+        //foreach (int number in rNumbers)
+        //{
+        //    if (number <= 0)
+        //    {
+        //        Console.WriteLine();
+        //    }
+        //}
+        //Console.WriteLine("Pick a number to divide by.");
+        //Console.ReadLine();
 
-                case 55:
-                    Console.WriteLine("You guessed 55. Try again.");
-                    Console.WriteLine("Guess a number?");
-                    number = Convert.ToInt32(Console.ReadLine());
-                    break;
-
-                case 12:
-                    Console.WriteLine("You guessed 12. That is correct.");
-                    isGuessed = true;
-                    break;
-
-                default: //if no case is guessed.
-                    Console.WriteLine("You are wrong.");
-                    Console.WriteLine("Guess a number?");
-                    number = Convert.ToInt32(Console.ReadLine());
-                    break;
-            }
-
-        }
-        while (!isGuessed); //good to avoid while  loops it can be endless
-
-        Console.Read();
-
-
-        try
+        try //block of code to try
         {
 
             Console.WriteLine("Pick a number.");
             int numberOne = Convert.ToInt32(Console.ReadLine());
-            int userPick = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("We're going to divide these numbers..");
+            int numberTwo = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Dividing by the number you entered...");
-            int numberTwo = numberOne / userPick;
-            Console.WriteLine(numberOne + " divided by " + userPick + " equals " + numberTwo);
+            int numberThree = numberOne / numberTwo;
+            Console.WriteLine(numberOne + " divided by " + numberTwo + " equals " + numberThree);
             Console.ReadLine();
         }
-        catch (DivideByZeroException ex)
+        catch (FormatException ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+        catch (DivideByZeroException ex) //block of code to handle errors
         {
             Console.WriteLine("Please do not divide by zero.");
         }
         catch (Exception ex)
         {
-            Console.WriteLine(ex.Message);
+            Console.WriteLine("Uh-oh! Something went wrong!");
         }
-        finally
+        finally //executes always
         {
             Console.ReadLine();
         }
