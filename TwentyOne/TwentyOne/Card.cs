@@ -8,7 +8,7 @@ namespace TwentyOne
 {
     public class Card
     {
-        public Card() //constructor values assigned to an object upon creation
+        public Card() //constructor values assigned to an object upon creation default values given
         {
             Suit = "Spades";
             Face = "Two";

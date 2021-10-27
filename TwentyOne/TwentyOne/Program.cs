@@ -10,13 +10,17 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            Card cardOne = new Card(); //object of datatype card assigned to variable.
-            //cardOne.Face = "Queen"; //assigned string queen to property face of card one
-            //cardOne.Suit = "Spades";
+            Deck deck = new Deck();
 
+            foreach(Card card in deck.Cards)
+            {
+                Console.WriteLine(card.Face + " of " + card.Suit);
+            }
 
-            Console.WriteLine(cardOne.Face + " of " + cardOne.Suit);
+            Console.WriteLine(deck.Cards.Count);
             Console.ReadLine();
         }
     }
 }
+
+//deck uses constructor which is a default
