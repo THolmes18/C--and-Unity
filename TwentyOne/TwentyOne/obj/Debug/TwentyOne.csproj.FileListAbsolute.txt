@@ -1,0 +1,7 @@
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\TwentyOne\TwentyOne\bin\Debug\TwentyOne.exe.config
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\TwentyOne\TwentyOne\bin\Debug\TwentyOne.exe
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\TwentyOne\TwentyOne\bin\Debug\TwentyOne.pdb
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\TwentyOne\TwentyOne\obj\Debug\TwentyOne.csproj.AssemblyReference.cache
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\TwentyOne\TwentyOne\obj\Debug\TwentyOne.csproj.CoreCompileInputs.cache
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\TwentyOne\TwentyOne\obj\Debug\TwentyOne.exe
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\TwentyOne\TwentyOne\obj\Debug\TwentyOne.pdb
