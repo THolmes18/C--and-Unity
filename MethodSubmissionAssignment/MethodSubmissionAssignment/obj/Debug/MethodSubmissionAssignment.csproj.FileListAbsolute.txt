@@ -1,0 +1,7 @@
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\MethodSubmissionAssignment\MethodSubmissionAssignment\bin\Debug\MethodSubmissionAssignment.exe.config
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\MethodSubmissionAssignment\MethodSubmissionAssignment\bin\Debug\MethodSubmissionAssignment.exe
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\MethodSubmissionAssignment\MethodSubmissionAssignment\bin\Debug\MethodSubmissionAssignment.pdb
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\MethodSubmissionAssignment\MethodSubmissionAssignment\obj\Debug\MethodSubmissionAssignment.csproj.AssemblyReference.cache
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\MethodSubmissionAssignment\MethodSubmissionAssignment\obj\Debug\MethodSubmissionAssignment.csproj.CoreCompileInputs.cache
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\MethodSubmissionAssignment\MethodSubmissionAssignment\obj\Debug\MethodSubmissionAssignment.exe
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\MethodSubmissionAssignment\MethodSubmissionAssignment\obj\Debug\MethodSubmissionAssignment.pdb
