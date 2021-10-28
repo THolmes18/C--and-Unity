@@ -11,6 +11,7 @@ namespace MainMethodAssignment
        public static void Main(string[] args)
             
         {
+            //Class1 code 
             Console.WriteLine("Enter a number.");
             int userinput = Convert.ToInt32(Console.ReadLine());
 
