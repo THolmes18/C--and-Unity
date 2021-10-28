@@ -8,10 +8,10 @@ namespace MainMethodAssignment
 {
     class Program
     {
-       public static void Main(string[] args)
-            
+        public static void Main(string[] args)
+
         {
-            //Class1 code 
+            //Class code
             Console.WriteLine("Enter a number.");
             int userinput = Convert.ToInt32(Console.ReadLine());
 
@@ -26,7 +26,7 @@ namespace MainMethodAssignment
             methods.methods(userinput, userinput2);
             methods.methods(userinput, userinput2, userinput3);
             Console.ReadLine();
-
-        }
+     
+        } 
     }
 }

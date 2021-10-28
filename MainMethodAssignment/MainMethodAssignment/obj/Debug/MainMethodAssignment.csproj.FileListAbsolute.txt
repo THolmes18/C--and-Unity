@@ -1,4 +1,3 @@
-C:\Users\T'ana\Documents\GitHub\C--and-Unity\MainMethodAssignment\MainMethodAssignment\obj\Debug\MainMethodAssignment.csproj.AssemblyReference.cache
 C:\Users\T'ana\Documents\GitHub\C--and-Unity\MainMethodAssignment\MainMethodAssignment\obj\Debug\MainMethodAssignment.csproj.CoreCompileInputs.cache
 C:\Users\T'ana\Documents\GitHub\C--and-Unity\MainMethodAssignment\MainMethodAssignment\bin\Debug\MainMethodAssignment.exe.config
 C:\Users\T'ana\Documents\GitHub\C--and-Unity\MainMethodAssignment\MainMethodAssignment\bin\Debug\MainMethodAssignment.exe
