@@ -14,14 +14,14 @@ namespace MethodSubmissionAssignment
             int a = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("[Optional] Please input a second number.");
-            string b = "4";
+            int b = Convert.ToInt32(Console.ReadLine());
             Console.ReadLine();
           
             
             Class1 class1 = new Class1(); //object
                                           //call Class2 method
             
-            Console.WriteLine(class1.MyMethod(a, b));
+            Console.WriteLine(Class1.MyMethod(a, b)); //call by class name
             Console.ReadLine();
         }
     }
