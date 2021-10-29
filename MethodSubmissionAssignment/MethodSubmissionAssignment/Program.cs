@@ -8,7 +8,7 @@ namespace MethodSubmissionAssignment
 {
     class Program
     {
-        static void Main(string[] args) 
+        public static void Main(string[] args) 
         {
             Console.WriteLine("Please input a number.");
             int sum = Convert.ToInt32(Console.ReadLine());

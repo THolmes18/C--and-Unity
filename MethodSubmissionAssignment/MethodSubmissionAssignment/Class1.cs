@@ -10,30 +10,12 @@ namespace MethodSubmissionAssignment
     class Class1
     {
 
-        public static void Add(int a, int b, [ Optional ] int[] n)
+        public static int Add(int a, [Optional] int b,)
         {
-            int Sum = a + b;
-            if (n != null)
-            {
-                foreach (int no in n)
-                {
-                    Sum += no;
-                }
-            }
-            Console.WriteLine("Sum is {0}: ", Sum);
+                int sum = a + b;
+                return sum;
+
         }
 
-        private class OptionalAttribute : Attribute
-        {
-        }
-
-
-
-        //public int Add(int a, int b, [ Optional ] int[] n)
-        //{
-        //    int sum = a + b;
-        //    return sum;
     }
-    
 }
-
