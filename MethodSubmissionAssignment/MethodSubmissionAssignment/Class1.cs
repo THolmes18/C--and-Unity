@@ -10,10 +10,10 @@ namespace MethodSubmissionAssignment
     class Class1
     {
 
-        public static int Add(int a, [Optional] int b,)
+        public static void MyMethod(int a, string b = "4") //default parameter value by using equal sign..calling the method without arguement uses default (4)
+
         {
-                int sum = a + b;
-                return sum;
+            Console.WriteLine(a + b); 
 
         }
 
