@@ -8,12 +8,24 @@ namespace VoidMethod
 {
     class MyMethod
     {
-        public static int mClass(int day, int month) //default parameter value by using equal sign..calling the method without arguement uses default (4)
+        public static void mClass(int x, int y) 
 
         {
 
-            return day + month;
+            if (x < 10)
+            {
+                Console.WriteLine(y);
+            }
+
+            else if (y > 11)
+            {
+                Console.WriteLine(x);
+            }
+
+            
+            
 
         }
     }
 }
+

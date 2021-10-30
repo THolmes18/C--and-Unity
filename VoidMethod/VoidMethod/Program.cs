@@ -11,18 +11,27 @@ namespace VoidMethod
         public static void Main(string[] args)
         {
             Console.WriteLine("Please input a number.");
-            int day = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("[Optional] Please input a second number.");
-            int month = Convert.ToInt32(Console.ReadLine());
+            int x = Convert.ToInt32(Console.ReadLine());
 
 
+            try
+            {
+                int y = Convert.ToInt32(Console.ReadLine()); //calls method, passing in both parameters
 
-            MyMethod mymethod = new MyMethod(); //object
-                                          //call Class2 method
+                MyMethod.mClass(x, y);
+            }
+            catch (Exception)
+            {
+              
+                MyMethod.mClass(y);
+                Console.ReadLine();
+            }
 
-            Console.WriteLine(MyMethod.mClass(day, month)); //call by class name
-            Console.ReadLine();
+            //MyMethod mymethod = new MyMethod(); //object
+            //                              //call Class2 method
+
+            //Console.WriteLine(MyMethod.mClass(x, y)); //call by class name
+            //Console.ReadLine();
         }
     }
 }
