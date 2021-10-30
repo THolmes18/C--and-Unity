@@ -10,7 +10,7 @@ namespace MethodSubmissionAssignment
     class Class1
     {
 
-        public static void MyMethod(int a, [Optional] int b) //default parameter value by using equal sign..calling the method without arguement uses default (4)
+        public static void MyMethod(int a, int b = 4) //default parameter value by using equal sign..calling the method without arguement uses default (4)
 
         {
             int total = a + b;

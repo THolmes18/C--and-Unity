@@ -19,15 +19,14 @@ namespace MethodSubmissionAssignment
             {
                 Console.WriteLine("[Optional] Please input a second number.");
                 int b = Convert.ToInt32(Console.ReadLine());
-                Console.ReadLine();
+                //calls the method, passing in both parameters.
+                Class1.MyMethod(a, b);
              
             }
             catch (Exception)
             {
-                Class1 class1 = new Class1(); //object
-                                              //call Class2 method
-                     
-                Console.WriteLine(Class1.MyMethod(a, b)); //call by class name
+                     //calls method, passing in only one parameter
+                Class1.MyMethod(a); //call by class name
                 Console.ReadLine();
             }
           
