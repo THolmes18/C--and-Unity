@@ -9,6 +9,7 @@ namespace TwentyOne
     public class Deck
     {
         public Deck() //constructor ALWAYS goes on top before property //method called as soon as object is created
+
         {
             Cards = new List<Card>();
             List<string> Suits = new List<string>() { "Clubs", "Hearts", "Diamonds", "Spades" };
@@ -30,7 +31,26 @@ namespace TwentyOne
             }
 
         }
-        public List<Card> Cards { get; set; }
+        public List<Card> Cards { get; set; } //property
+
+        public void Shuffle(int times = 1) //static (which would go after public) calls method w/o applying to specific deck
+        {
+        
+            for (int i = 0; i < times; i++)
+            {
+                List<Card> TempList = new List<Card>();
+                Random random = new Random();
+
+                while (Cards.Count > 0)
+                {
+                    int randomIndex = random.Next(0, Cards.Count);
+                    TempList.Add(Cards[randomIndex]);
+                    Cards.RemoveAt(randomIndex);
+                }
+                this.Cards = TempList; //this means it is referring to itself; its own object
+            }
+        
+        }
     }
 }
 
