@@ -13,6 +13,7 @@ namespace VoidMethod
         {
             Math.Max(5, 10);
             Console.WriteLine(y);
+            Console.WriteLine(x + 10);
             Console.ReadLine();
         }
     }
