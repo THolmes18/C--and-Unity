@@ -10,28 +10,12 @@ namespace VoidMethod
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Please input a number.");
-            int x = Convert.ToInt32(Console.ReadLine());
-
-
-            try
-            {
-                int y = Convert.ToInt32(Console.ReadLine()); //calls method, passing in both parameters
-
-                MyMethod.mClass(x, y);
-            }
-            catch (Exception)
-            {
-              
-                MyMethod.mClass(y);
-                Console.ReadLine();
-            }
-
-            //MyMethod mymethod = new MyMethod(); //object
-            //                              //call Class2 method
-
-            //Console.WriteLine(MyMethod.mClass(x, y)); //call by class name
-            //Console.ReadLine();
+            MyMethod mymethod = new MyMethod();
+            int y = 8;
+            int x = 2;
+            MyMethod.mClass(x, y);
+     
+            Console.ReadLine();
         }
     }
 }

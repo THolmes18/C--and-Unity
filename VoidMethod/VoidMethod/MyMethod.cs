@@ -11,20 +11,9 @@ namespace VoidMethod
         public static void mClass(int x, int y) 
 
         {
-
-            if (x < 10)
-            {
-                Console.WriteLine(y);
-            }
-
-            else if (y > 11)
-            {
-                Console.WriteLine(x);
-            }
-
-            
-            
-
+            Math.Max(5, 10);
+            Console.WriteLine(Math.Max(5, 10));
+            Console.ReadLine();
         }
     }
 }
