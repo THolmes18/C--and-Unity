@@ -19,3 +19,5 @@ namespace VoidMethod
         }
     }
 }
+
+//instinuate call method from the object

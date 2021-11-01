@@ -8,25 +8,31 @@ namespace ClassSubmission
 {
     class integerOne
     {
-        public static void MyMethod(int a, int b)
+        public void MyMethod(int a)
 
         {
-            int difference = a + b / 2;
-            Console.WriteLine(difference);
-            Console.ReadLine();
-            Console.WriteLine("Please enter a number");
-            double MyMethod = Convert.ToDouble(Console.ReadLine());
-            double radious = 0;
-            double circumference = CalculateCircle(radious, out double area);
-            Console.WriteLine("Circle's circumference is {circumference}");
-            Console.WriteLine("Circle's Area is {area}");
-            Console.ReadKey();
+            
+            Console.WriteLine(a / 2);
+            
         }
-        static double CalculateCircle(double radious, out double area)
+
+        public void OutMethod(out int x) //out needs data type reference
         {
-            area = Math.PI * Math.Pow(radious, 2);
-            double circumference = 2 * Math.PI * radious;
-            return circumference;
+            x = 30;
+            x += x; //addition: syntax trigger
+        }
+
+        public void overload(int az, int b, float t, float s) //overload
+        {
+            Console.WriteLine(az + b + t + s);
+        }
+
+        internal static void overLoad(int v1, int v2)
+        {
+            throw new NotImplementedException();
         }
     }
+
 }
+
+//static method keeps one copy of method inside of self..properties belong to that class specifically.
