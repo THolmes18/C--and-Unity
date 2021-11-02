@@ -8,5 +8,10 @@ namespace ClassSubmission
 {
     static class StaticClass 
     {
+        public static void statMethod(int r, int l)
+        {
+            Console.WriteLine(r * l);
+            return r;
+        }
     }
 }

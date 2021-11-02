@@ -22,9 +22,9 @@ namespace ClassSubmission
             x += x; //addition: syntax trigger
         }
 
-        public void overload(int az, int b, float t, float s) //overload
+        public void overload(int az, int b) //overload
         {
-            Console.WriteLine(az + b + t + s);
+            Console.WriteLine(az + b);
         }
 
         internal static void overLoad(int v1, int v2)

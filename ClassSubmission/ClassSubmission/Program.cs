@@ -34,8 +34,15 @@ namespace ClassSubmission
             Console.WriteLine("Press any key to exit.");
             Console.ReadLine();
 
+            
+            
+            Console.WriteLine("Enter 2 digits.");
+            int r = Convert.ToInt32(Console.ReadLine());
+            
 
         }
+
+     
     }
 }
 
