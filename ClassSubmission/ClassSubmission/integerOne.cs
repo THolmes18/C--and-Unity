@@ -16,23 +16,21 @@ namespace ClassSubmission
             
         }
 
-        public void OutMethod(out int x) //out needs data type reference
+        public string OverLoad(string word, out int x) //out needs data type reference..takes in string and outputs length
         {
-            x = 30;
-            x += x; //addition: syntax trigger
+            x = word.Length;
+            string y = "Your string is " + x + " characters long.";
+            return y;
         }
 
-        public void overload(int az, int b) //overload
+        public int OverLoad(int az, int b) //overload diff method but same name.
         {
-            Console.WriteLine(az + b);
-        }
-
-        internal static void overLoad(int v1, int v2)
-        {
-            throw new NotImplementedException();
+            int num = (az + b);
+            return num;
         }
     }
 
 }
 
 //static method keeps one copy of method inside of self..properties belong to that class specifically.
+//void returns nothing

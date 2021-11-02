@@ -17,28 +17,25 @@ namespace ClassSubmission
             Console.WriteLine("Enter a number.");
             int a = Convert.ToInt32(Console.ReadLine());
 
+            //calling all methods         
             myObject.MyMethod(a);
-         
-             Console.ReadLine();
+            Console.WriteLine("Input a word"); //out
+            string userInput = Console.ReadLine();
+            string count = myObject.OverLoad(userInput, out int x); //changes to an integer
+            Console.WriteLine(count);
 
-            int i; //save i in memory but dk how to use yet
-            myObject.OutMethod(out i); //passing in i through object and method
-            Console.WriteLine(i);
+            Console.WriteLine("Input 1 number.");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Input a second number.");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            int num3 = myObject.OverLoad(num1, num2);
+            Console.WriteLine("Your two numbers added equals " + num3);
+
+            Console.WriteLine("Pick a number"); //static class declared.
+            int sts = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(StaticClass.statMethod(sts));
             Console.ReadLine();
 
-            int overLoad = Convert.ToInt32(Console.ReadLine());
-
-            integerOne.overLoad(10, 20);
-            integerOne.overLoad((int)10.5, (int)20.5);
-            integerOne.overLoad(40, 80);
-            Console.WriteLine("Press any key to exit.");
-            Console.ReadLine();
-
-            
-            
-            Console.WriteLine("Enter 2 digits.");
-            int r = Convert.ToInt32(Console.ReadLine());
-            
 
         }
 
@@ -47,3 +44,4 @@ namespace ClassSubmission
 }
 
 //out passes for refrences when returning multiples.(1 value inside of a method)
+//static does not need new object.
