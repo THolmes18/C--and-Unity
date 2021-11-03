@@ -1,0 +1,7 @@
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\MethodsAndObjectsAssignments\MethodsAndObjectsAssignments\bin\Debug\MethodsAndObjectsAssignments.exe.config
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\MethodsAndObjectsAssignments\MethodsAndObjectsAssignments\bin\Debug\MethodsAndObjectsAssignments.exe
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\MethodsAndObjectsAssignments\MethodsAndObjectsAssignments\bin\Debug\MethodsAndObjectsAssignments.pdb
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\MethodsAndObjectsAssignments\MethodsAndObjectsAssignments\obj\Debug\MethodsAndObjectsAssignments.csproj.AssemblyReference.cache
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\MethodsAndObjectsAssignments\MethodsAndObjectsAssignments\obj\Debug\MethodsAndObjectsAssignments.csproj.CoreCompileInputs.cache
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\MethodsAndObjectsAssignments\MethodsAndObjectsAssignments\obj\Debug\MethodsAndObjectsAssignments.exe
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\MethodsAndObjectsAssignments\MethodsAndObjectsAssignments\obj\Debug\MethodsAndObjectsAssignments.pdb
