@@ -10,20 +10,13 @@ namespace MethodsAndObjectsAssignments
     {
         static void Main(string[] args)
         {
-            Person myObjs = new Person();
-            myObjs.Name = "T'Ana";
-            Console.WriteLine(myObjs.Name);
-            myObjs.SayName();
+            Employee employee = new Employee() { FirstName = "Sample", LastName = "Student"};
 
-            Employee employee = new Employee();
-            employee.Person = new List<string>() { "T'Ana", "Ha'Mil", "Holmes", "Furqan" };
-            employee.ID();
+            //person is the superclass
 
-            Console.WriteLine(employee.Person);
-
-            employee.person();
-            //employee.ID(); //superclass
+            employee.SayName();
             Console.ReadLine();
+
         }
     }
 }

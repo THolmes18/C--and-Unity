@@ -8,16 +8,12 @@ namespace MethodsAndObjectsAssignments
 {
     class Person
     {
-        private string name; //field
-        public string Name //property
-        {
-            get { return name; }
-            set { name = value; }
-        }
-        
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+
         public void SayName()
         {
-            Console.WriteLine(Name);
+            Console.WriteLine("Name: " + FirstName + " " + LastName);
         }
     }
 }

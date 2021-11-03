@@ -8,20 +8,7 @@ namespace MethodsAndObjectsAssignments
 {
     class Employee : Person
     {
-        public List<string> Person { get; set; }
-
-        public void ID()
-        {
-            foreach (string person in Person)
-            {
-                Console.WriteLine(person);
-            }
-        }
-
-        public void person()
-        {
-            throw new NotImplementedException();
-        }
+        public int ID { get; set; } //making a property
     }
 }
 
