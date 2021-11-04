@@ -20,6 +20,14 @@ namespace AbstractClassSubmission
 
             employee.SayName();
             Console.ReadLine();
+
+            Employee employee1 = new Employee() { ID = 4 }; //unique objects
+            Employee employee2 = new Employee() { ID = 4 };
+            Console.WriteLine("Are the employee ID's equal?");
+            Console.WriteLine(employee1.ID == employee2.ID);//comparison
+
+            Console.ReadLine();
+
         }
     }
 

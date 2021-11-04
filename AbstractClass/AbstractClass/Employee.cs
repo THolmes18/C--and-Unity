@@ -8,18 +8,28 @@ namespace AbstractClass
 {
     class Employee : Person, IQuittable
     {
+        public static Employee employee { get; internal set; }
         public int ID { get; set; }
 
         public void Quit()
         {
             Console.WriteLine("This person has quit.");
         }
-        public static Employee operator== (Employee ID, Person person)
+        public static bool operator == (Employee employee, Employee employee1)
         {
-            Employee.(ID);
-            return employee;
+            if (employee.ID == employee1.ID)
+                return true;
+            else
+                return false;
+        }
+        public static bool operator !=(Employee employee, Employee employee1)
+        {
+            if (employee.ID != employee1.ID)
+                return false;
+            else
+                return true;
         }
     }
 
-    
+
 }
