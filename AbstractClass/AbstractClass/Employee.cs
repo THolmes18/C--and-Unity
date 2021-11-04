@@ -6,15 +6,13 @@ using System.Threading.Tasks;
 
 namespace AbstractClass
 {
-    class Employee : Person
+    class Employee : Person, IQuittable
     {
-        public int ID { get; set; }
-        //public List<string> Person { get; internal set; }
+        public int ID { get; set; } 
+    }
 
-        //public new virtual void SayName()
-        //{
-        //    throw new NotImplementedException();
-        //}
-        
+    public void Quittable(Employee employee)
+    {
+        throw new NotImplementedException();
     }
 }
