@@ -10,7 +10,10 @@ namespace AbstractClass
     {
         public int ID { get; set; }
 
-       
+        public void Quit()
+        {
+            Console.WriteLine("This person has quit.");
+        }
     }
 
     

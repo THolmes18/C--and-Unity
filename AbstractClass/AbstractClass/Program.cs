@@ -12,7 +12,8 @@ namespace AbstractClassSubmission
         static void Main(string[] args)
         {
 
-            Person person = new Quittable();
+            IQuittable emp2 = new Employee();
+            emp2.Quit();
             
             
             Employee employee = new Employee() { firstName = "Sample", lastName = "Student" };
@@ -22,7 +23,5 @@ namespace AbstractClassSubmission
         }
     }
 
-    internal class Quittable : Person
-    {
-    }
+
 }

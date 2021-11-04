@@ -17,10 +17,7 @@ namespace AbstractClass
             Console.WriteLine("Name: " + firstName + " " + lastName);
         }
 
-        public void Quittable(Person person)
-        {
-            throw new NotImplementedException();
-        }
+      
 
     }
 }
