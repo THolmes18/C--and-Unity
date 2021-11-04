@@ -8,11 +8,13 @@ namespace AbstractClass
 {
     class Employee : Person, IQuittable
     {
-        public int ID { get; set; } 
+        public int ID { get; set; }
+
+        public void Quittable(Person person)
+        {
+            throw new NotImplementedException();
+        }
     }
 
-    public void Quittable(Employee employee)
-    {
-        throw new NotImplementedException();
-    }
+    
 }
