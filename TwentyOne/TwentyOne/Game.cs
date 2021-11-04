@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace TwentyOne
 {
-    public class Game
+    public abstract class Game //creating it can never instantituated *abstract*(step1)
     {
         public List<string> Players { get; set; }
         public string Name { get; set; }
         public string Dealer { get; set; }
 
-        public void ListPlayers()
+        public abstract void Play(); //can only use abstract in a class and method must be implemented (step 2)
+
+        public virtual void ListPlayers() //own implementation (virtual-method is inherited but can be overwritten) step 4
         {
             foreach (string player in Players)
             {
@@ -21,3 +23,5 @@ namespace TwentyOne
         }
     }
 }
+
+//can only be inherited is abstract class

@@ -10,7 +10,16 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
+            TwentyOneGame game = new TwentyOneGame(); //step 6 of abstract
+            game.Players = new List<string>() { "T'Ana", "Ha'Mil", "Holmes" };
+            game.ListPlayers();
+            Console.ReadLine();
+
             //******Card card = new Card() { Face = "King", Suit = "Spades" }; //object initialization
+            //List<Game> games = new List<Game>(); //POLYMORPHISM step 2
+            //Game game = new TwentyOneGame();//POLYMORPHISM (this is all it is) STEP 1
+            //games.Add(game); //step 3 POLYMORPHISM
+            ////POLYMORPHISM is the ability of a class to morph into its inheriting class.
 
             Game game = new Game(); //if this was TwentyOneGame game = new TwentyOneGame then we can access Play
             game.Players = new List<string>() { "T'Ana", "Holmes", "Ha'Mil" };
