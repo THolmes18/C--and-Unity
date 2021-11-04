@@ -10,9 +10,19 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            TwentyOneGame game = new TwentyOneGame(); //step 6 of abstract
-            game.Players = new List<string>() { "T'Ana", "Ha'Mil", "Holmes" };
-            game.ListPlayers();
+
+            Game game = new TwentyOneGame(); //overload operators..5
+            game.Players = new List<Player>(); //overload operators..8 instantuate.
+            Player player = new Player(); //overload operators..6
+            game = game + player; //method in a sense overload operators..7 game += player; is a shortcut
+            player.Name = "T'Ana";
+            game = game - player;
+
+            //TwentyOneGame game = new TwentyOneGame(); //step 6 of abstract
+            //game.Players = new List<string>() { "T'Ana", "Ha'Mil", "Holmes" };
+            //game.ListPlayers();
+            
+            
             Console.ReadLine();
 
             //******Card card = new Card() { Face = "King", Suit = "Spades" }; //object initialization

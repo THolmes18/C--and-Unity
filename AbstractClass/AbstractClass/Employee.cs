@@ -14,6 +14,11 @@ namespace AbstractClass
         {
             Console.WriteLine("This person has quit.");
         }
+        public static Employee operator== (Employee ID, Person person)
+        {
+            Employee.(ID);
+            return employee;
+        }
     }
 
     
