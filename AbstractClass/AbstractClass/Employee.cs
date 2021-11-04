@@ -10,10 +10,7 @@ namespace AbstractClass
     {
         public int ID { get; set; }
 
-        public void Quittable(Person person)
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 
     

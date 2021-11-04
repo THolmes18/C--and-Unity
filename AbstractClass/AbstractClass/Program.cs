@@ -12,7 +12,7 @@ namespace AbstractClassSubmission
         static void Main(string[] args)
         {
 
-            
+            Person person = new Quittable();
             
             
             Employee employee = new Employee() { firstName = "Sample", lastName = "Student" };
@@ -20,5 +20,9 @@ namespace AbstractClassSubmission
             employee.SayName();
             Console.ReadLine();
         }
+    }
+
+    internal class Quittable : Person
+    {
     }
 }
