@@ -8,7 +8,7 @@ namespace AbstractClass
 {
     public abstract class Person
     {
-        //internal static Employee person { get; set; }
+        
         public string firstName { get; set; }
         public string lastName { get; set; }
 
