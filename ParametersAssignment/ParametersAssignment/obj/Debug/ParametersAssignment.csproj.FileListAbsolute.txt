@@ -1,0 +1,2 @@
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\ParametersAssignment\ParametersAssignment\obj\Debug\ParametersAssignment.csproj.AssemblyReference.cache
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\ParametersAssignment\ParametersAssignment\obj\Debug\ParametersAssignment.csproj.CoreCompileInputs.cache

@@ -6,16 +6,21 @@ using System.Threading.Tasks;
 
 namespace ParametersAssignment
 {
-    public class Employee<T>
+    public class employee<T> 
     {
         public List<T> Things { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public int Salary { get; set; }
 
 
-        public void Name(string FirstName)
+        public void Name(string FirstName, string LastName, int Salary)
         {
-            Console.WriteLine("Name: " + FirstName + " " + LastName);
+            FirstName = " ";
+            LastName = " ";
+            Salary = 50000;
+
+            Console.WriteLine("Name: " + FirstName + " " + LastName + Salary);
         }
     }
 }
