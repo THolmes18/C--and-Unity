@@ -11,8 +11,7 @@ namespace AbstractClassSubmission
     {
         static void Main(string[] args)
         {
-            Things<T> things = new Things<T>;
-
+            
 
             IQuittable emp2 = new Employee();
             emp2.Quit();
@@ -30,12 +29,8 @@ namespace AbstractClassSubmission
 
             Console.ReadLine();
 
-            Employee<T> employee = new Employee<T>();
-            employee.ID = new List<T>();
-
-            Employee<string> Things = new Employee<string>();
         }
+
     }
-
-
+    
 }

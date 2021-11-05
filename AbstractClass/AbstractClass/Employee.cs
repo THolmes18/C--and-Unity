@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace AbstractClass
 {
-    class Employee<T> : Person, IQuittable
+    class Employee : Person, IQuittable
     {
-        public static Employee<T> employee { get; internal set; }
-        public int ID { get; set; }
+        public int ID { get; internal set; }
 
         public void Quit()
         {
@@ -28,11 +27,6 @@ namespace AbstractClass
                 return false;
             else
                 return true;
-        }
-
-        public static string Things()
-        {
-            public List<T> Things { get; set; }
         }
     
     }
