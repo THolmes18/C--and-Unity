@@ -10,8 +10,8 @@ namespace ParametersAssignment
     {
         static void Main(string[] args)
         {
-            Employee<T> employee = new Employee<T>() { FirstName = "T'Ana", LastName = "Holmes" };
-            employee.Things.Name() = new List<T>();
+            employee<T> employee = new employee<T>() { FirstName = "T'Ana", LastName = "Holmes" };
+            employee.Things = new List<T>();
 
             
             Console.ReadLine();

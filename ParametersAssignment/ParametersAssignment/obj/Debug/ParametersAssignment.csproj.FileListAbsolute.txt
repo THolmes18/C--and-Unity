@@ -1,2 +1,7 @@
 C:\Users\T'ana\Documents\GitHub\C--and-Unity\ParametersAssignment\ParametersAssignment\obj\Debug\ParametersAssignment.csproj.AssemblyReference.cache
 C:\Users\T'ana\Documents\GitHub\C--and-Unity\ParametersAssignment\ParametersAssignment\obj\Debug\ParametersAssignment.csproj.CoreCompileInputs.cache
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\ParametersAssignment\ParametersAssignment\bin\Debug\ParametersAssignment.exe.config
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\ParametersAssignment\ParametersAssignment\bin\Debug\ParametersAssignment.exe
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\ParametersAssignment\ParametersAssignment\bin\Debug\ParametersAssignment.pdb
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\ParametersAssignment\ParametersAssignment\obj\Debug\ParametersAssignment.exe
+C:\Users\T'ana\Documents\GitHub\C--and-Unity\ParametersAssignment\ParametersAssignment\obj\Debug\ParametersAssignment.pdb
