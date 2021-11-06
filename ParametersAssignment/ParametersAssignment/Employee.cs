@@ -8,7 +8,7 @@ namespace ParametersAssignment
 {
     public class employee<T> 
     {
-        public List<T> Things { get; set; }
+        public List<string> Things { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int Salary { get; set; }
