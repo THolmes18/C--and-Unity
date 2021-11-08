@@ -10,11 +10,21 @@ namespace ParametersAssignment
     {
         static void Main(string[] args)
         {
-            employee<string> employee = new employee<string>(); 
+            Employee<string> employee = new Employee<string>(); 
             employee.Things = new List<string>() { "T'Ana", "Holmes" };
+
+            employee<string> employee2 = new employee<string>();
+            //employee.FirstName = new employee<string>("");
+
+            employee<int> employee1 = new employee<int>();
 
             
             Console.ReadLine();
+        }
+
+        private class Employee<T>
+        {
+            public List<string> Things { get; internal set; }
         }
     }
 }
