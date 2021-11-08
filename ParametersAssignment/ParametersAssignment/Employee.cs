@@ -8,7 +8,7 @@ namespace ParametersAssignment
 {
     public class Employee<T>
     {
-        public List<string> Things { get; set; }
+        public List<T> Things { get; set; } //<T> makes it generic type any data type not specific. 
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int salary { get; set; }
