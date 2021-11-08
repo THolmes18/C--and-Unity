@@ -22,11 +22,9 @@ namespace ParsingEnums
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Please input the current Day of the Week.");
             string userInput = Console.ReadLine();
             DaysOfTheWeek weekly; //converting string to enum.
-            Console.WriteLine("Please input the current Day of the Week.");
-
-            //userInput DaysOfTheWeek = (DaysOfTheWeek)Enum.Parse(typeof(userInput), value);
 
             try
             {
