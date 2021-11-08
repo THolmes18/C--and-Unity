@@ -31,7 +31,6 @@ namespace ParsingEnums
             try
             {
                 weekly = (DaysOfTheWeek)Enum.Parse(typeof(DaysOfTheWeek), userInput);
-                
             }
 
             catch (Exception ex)
@@ -39,15 +38,6 @@ namespace ParsingEnums
                 Console.WriteLine("Please enter an actual day of the week.");
                 weekly = DaysOfTheWeek.None;
             }
-            if (weekly == DaysOfTheWeek.Monday)
-            {
-                Console.WriteLine(weekly);
-            }
-            else
-            {
-                Console.WriteLine("There's an error please retry.");
-            }
-
             Console.ReadLine();
         }
     }
