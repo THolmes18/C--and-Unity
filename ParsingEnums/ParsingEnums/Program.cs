@@ -28,7 +28,7 @@ namespace ParsingEnums
 
             try
             {
-                weekly = (DaysOfTheWeek)Enum.Parse(typeof(DaysOfTheWeek), value);
+                weekly = (DaysOfTheWeek)Enum.Parse(typeof(DaysOfTheWeek), userInput);
                // Console.WriteLine("Please input the current Day of the Week.", Enum.Parse(DaysOfTheWeek);
             }
 
