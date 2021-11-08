@@ -24,12 +24,14 @@ namespace ParsingEnums
         {
             string userInput = Console.ReadLine();
             DaysOfTheWeek weekly; //converting string to enum.
+            Console.WriteLine("Please input the current Day of the Week.");
+
             //userInput DaysOfTheWeek = (DaysOfTheWeek)Enum.Parse(typeof(userInput), value);
 
             try
             {
                 weekly = (DaysOfTheWeek)Enum.Parse(typeof(DaysOfTheWeek), userInput);
-               // Console.WriteLine("Please input the current Day of the Week.", Enum.Parse(DaysOfTheWeek);
+                
             }
 
             catch (Exception ex)
@@ -39,7 +41,11 @@ namespace ParsingEnums
             }
             if (weekly == DaysOfTheWeek.Monday)
             {
-
+                Console.WriteLine(weekly);
+            }
+            else
+            {
+                Console.WriteLine("There's an error please retry.");
             }
 
             Console.ReadLine();
