@@ -11,6 +11,7 @@ namespace LambdaAssignment
         static void Main(string[] args)
         {
             //int ID = Convert.ToInt32(Console.ReadLine());
+            
 
             List<string> Employees = new List<string>();
             Employees.Add("Joe Tribbiani");
@@ -38,9 +39,10 @@ namespace LambdaAssignment
 
             foreach (string Joe in Employees)
             {
-                Console.WriteLine(" Joe Long", "Joe Tribbiani");
+                Console.WriteLine(" Joe Long, Joe Tribbiani");
             }
 
+            for (int i = 0; i < employeeID.Count; i++) ;
             int sum = employeeID.Sum(x => x + 5);
             Console.ReadLine();
         }
