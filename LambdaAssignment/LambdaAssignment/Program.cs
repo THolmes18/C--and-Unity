@@ -8,42 +8,41 @@ namespace LambdaAssignment
 {
     class Program
     {
+        private static int ID;
+
         static void Main(string[] args)
         {
-            //int ID = Convert.ToInt32(Console.ReadLine());
-            
+            List<string> Employee = new List<string>();
+            Employee employee = new Employee() { firstName = "T'Ana", lastName = "Holmes", ID = 0 };
+            Employee employee1 = new Employee() {firstName = "Rachael", lastName = "Holmes", ID = 2 };
+            Employee employee2 = new Employee() { firstName = "Joe", lastName = "Holmes", ID = 4 };
+            Employee employee3 = new Employee() { firstName = "Ross", lastName = "Holmes", ID = 6 };
+            Employee employee4 = new Employee() { firstName = "Monica", lastName = "Holmes", ID = 1 };
+            Employee employee5 = new Employee() { firstName = "Gunther", lastName = "Holmes", ID = 3 };
+            Employee employee6 = new Employee() { firstName = "Joe", lastName = "Holmes", ID = 5 };
+            Employee employee7 = new Employee() { firstName = "Joey", lastName = "Holmes", ID = 7 };
+            Employee employee8 = new Employee() { firstName = "Matthew", lastName = "Holmes", ID = 9 };
+            Employee employee9 = new Employee() { firstName = "Tyler", lastName = "Holmes", ID = 10 };
 
-            List<string> Employees = new List<string>();
-            Employees.Add("Joe Tribbiani");
-            Employees.Add("Rachael Green");
-            Employees.Add("Ross Geller");
-            Employees.Add("Phoebe Buffay");
-            Employees.Add("Monica Geller");
-            Employees.Add("Chandler Bing");
-            Employees.Add("Gunther Tyler");
-            Employees.Add("Joe Long");
-            Employees.Add("Carol Willick");
-            Employees.Add("Mike Hannigan");
+            employee.Names();
+            employee1.Names();
+            employee2.Names();
+            employee3.Names();
+            employee4.Names();
+            employee5.Names();
+            employee6.Names();
+            employee7.Names();
+            employee8.Names();
+            employee9.Names();
 
-            List<int> employeeID = new List<int>();
-            employeeID.Add(001);
-            employeeID.Add(002);
-            employeeID.Add(003);
-            employeeID.Add(004);
-            employeeID.Add(005);
-            employeeID.Add(006);
-            employeeID.Add(007);
-            employeeID.Add(008);
-            employeeID.Add(009);
-            employeeID.Add(010);
-
-            foreach (string Joe in Employees)
+            foreach (string Names in Employee)
             {
-                Console.WriteLine(" Joe Long, Joe Tribbiani");
+                Console.WriteLine("Joe Holmes"); 
+                Console.WriteLine("Joe Long");
             }
 
-            for (int i = 0; i < employeeID.Count; i++) ;
-            int sum = employeeID.Sum(x => x + 5);
+            //for (int i = 0; i < ID.Count; i++) ;
+            //int sum = employeeID.Sum(x => x + 5);
             Console.ReadLine();
         }
         
