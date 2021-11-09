@@ -8,7 +8,7 @@ namespace LambdaAssignment
 {
     class Program
     {
-        private static int ID;
+        public static int ID;
 
         static void Main(string[] args)
         {
@@ -35,10 +35,14 @@ namespace LambdaAssignment
             employee8.Names();
             employee9.Names();
 
-            foreach (string Names in Employee)
+            //foreach (string Names in Employee)
+            //{
+            //    Console.WriteLine("Joe Holmes"); 
+            //    Console.WriteLine("Joe Long");
+            //}
+            foreach (Employee firstName in Employee.FindAll(e => (e.ID > 5)).Take(2).ToLost())
             {
-                Console.WriteLine("Joe Holmes"); 
-                Console.WriteLine("Joe Long");
+                Console.WriteLine("These individuals have an ID number greater than 5.");
             }
 
             //for (int i = 0; i < ID.Count; i++) ;
@@ -46,6 +50,9 @@ namespace LambdaAssignment
             Console.ReadLine();
         }
         
-         
-    }
+        //foreach (Person person in listPersonsInCity.FindAll(e => (e.Age >= 60)).Take(2).ToList())  
+        // Console.WriteLine("Name : " + person.Name + " \t\tAge: " + person.Age);  
+}
+
+}
 }
