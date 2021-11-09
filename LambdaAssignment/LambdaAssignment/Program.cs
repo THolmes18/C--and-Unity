@@ -10,33 +10,41 @@ namespace LambdaAssignment
     {
         static void Main(string[] args)
         {
-            int ID = Convert.ToInt32(Console.ReadLine());
+            //int ID = Convert.ToInt32(Console.ReadLine());
 
             List<string> Employees = new List<string>();
-            Employees.Add("Joe Tribbiani 001");
-            Employees.Add("Rachael Green 002");
-            Employees.Add("Ross Geller 003");
-            Employees.Add("Phoebe Buffay 004");
-            Employees.Add("Monica Geller 005");
-            Employees.Add("Chandler Bing 006");
-            Employees.Add("Gunther Tyler 007 ");
-            Employees.Add("Joe Long 008 ");
-            Employees.Add("Carol Willick 009 ");
-            Employees.Add("Mike Hannigan 010 ");
+            Employees.Add("Joe Tribbiani");
+            Employees.Add("Rachael Green");
+            Employees.Add("Ross Geller");
+            Employees.Add("Phoebe Buffay");
+            Employees.Add("Monica Geller");
+            Employees.Add("Chandler Bing");
+            Employees.Add("Gunther Tyler");
+            Employees.Add("Joe Long");
+            Employees.Add("Carol Willick");
+            Employees.Add("Mike Hannigan");
 
-            List<int> ID = new List<int>();
-            ID.Add(001);
-
+            List<int> employeeID = new List<int>();
+            employeeID.Add(001);
+            employeeID.Add(002);
+            employeeID.Add(003);
+            employeeID.Add(004);
+            employeeID.Add(005);
+            employeeID.Add(006);
+            employeeID.Add(007);
+            employeeID.Add(008);
+            employeeID.Add(009);
+            employeeID.Add(010);
 
             foreach (string Joe in Employees)
             {
-                Console.WriteLine(" ");
+                Console.WriteLine(" Joe Long", "Joe Tribbiani");
             }
 
-            List<int> Employees = ID.FindAll(x => (ID > 5) == 0);
-
+            int sum = employeeID.Sum(x => x + 5);
+            Console.ReadLine();
         }
-
+        
          
     }
 }
