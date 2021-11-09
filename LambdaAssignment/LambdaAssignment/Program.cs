@@ -52,25 +52,19 @@ namespace LambdaAssignment
             foreach (Employee em in emList)
             {
                 if (employee.firstName == "Joe");
+                {
+                    Console.WriteLine(Console.ReadLine());
+                }
             }
 
-            List<int> employee = ID.FindAll(x => x > 5).ToList();  
-            //int count = ID.Employee.Count(x => x.ID > 5);
-           
+            List<Employee> idEmpList = emList.Where(x => x.ID > 5).ToList();
+            Console.ReadLine();
 
-            //foreach (Employee firstName in Employee.FindAll(e => (e.ID > 5)).Take(2).ToLost())
-            {
-              //  Console.WriteLine("These individuals have an ID number greater than 5.");
-            }
+            //LAMBDA  the first part of our statement should be defining a list of Employee objects: List<Employee> idEmpList = 
+            //LAMBDA Expressions--where returns all instances
 
-            //for (int i = 0; i < emList.ID; i++) ;
-            //int ID = emList.ID (x => 5 );
             Console.ReadLine();
         }
-        
-        //foreach (Person person in listPersonsInCity.FindAll(e => (e.Age >= 60)).Take(2).ToList())  
-        // Console.WriteLine("Name : " + person.Name + " \t\tAge: " + person.Age);  
     }
-
 }
 
