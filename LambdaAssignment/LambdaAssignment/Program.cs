@@ -12,17 +12,31 @@ namespace LambdaAssignment
 
         static void Main(string[] args)
         {
-            List<string> Employee = new List<string>();
+            
+            List<Employee> emList = new List<Employee>();
+
             Employee employee = new Employee() { firstName = "T'Ana", lastName = "Holmes", ID = 0 };
             Employee employee1 = new Employee() {firstName = "Rachael", lastName = "Holmes", ID = 2 };
             Employee employee2 = new Employee() { firstName = "Joe", lastName = "Holmes", ID = 4 };
-            Employee employee3 = new Employee() { firstName = "Ross", lastName = "Holmes", ID = 6 };
-            Employee employee4 = new Employee() { firstName = "Monica", lastName = "Holmes", ID = 1 };
+            Employee employee3 = new Employee() { firstName = "Ross", lastName = "Geller", ID = 6 };
+            Employee employee4 = new Employee() { firstName = "Monica", lastName = "Geller", ID = 1 };
             Employee employee5 = new Employee() { firstName = "Gunther", lastName = "Holmes", ID = 3 };
-            Employee employee6 = new Employee() { firstName = "Joe", lastName = "Holmes", ID = 5 };
+            Employee employee6 = new Employee() { firstName = "Joe", lastName = "Long", ID = 5 };
             Employee employee7 = new Employee() { firstName = "Joey", lastName = "Holmes", ID = 7 };
-            Employee employee8 = new Employee() { firstName = "Matthew", lastName = "Holmes", ID = 9 };
-            Employee employee9 = new Employee() { firstName = "Tyler", lastName = "Holmes", ID = 10 };
+            Employee employee8 = new Employee() { firstName = "Chandler", lastName = "Bing", ID = 9 };
+            Employee employee9 = new Employee() { firstName = "Phoebe", lastName = "Buffay", ID = 10 };
+
+            emList.Add(employee);
+            emList.Add(employee1);
+            emList.Add(employee2);
+            emList.Add(employee3);
+            emList.Add(employee4);
+            emList.Add(employee5);
+            emList.Add(employee6);
+            emList.Add(employee7);
+            emList.Add(employee8);
+
+
 
             employee.Names();
             employee1.Names();
@@ -35,24 +49,28 @@ namespace LambdaAssignment
             employee8.Names();
             employee9.Names();
 
-            //foreach (string Names in Employee)
-            //{
-            //    Console.WriteLine("Joe Holmes"); 
-            //    Console.WriteLine("Joe Long");
-            //}
-            foreach (Employee firstName in Employee.FindAll(e => (e.ID > 5)).Take(2).ToLost())
+            foreach (Employee em in emList)
             {
-                Console.WriteLine("These individuals have an ID number greater than 5.");
+                if (employee.firstName == "Joe");
             }
 
-            //for (int i = 0; i < ID.Count; i++) ;
-            //int sum = employeeID.Sum(x => x + 5);
+            List<int> employee = ID.FindAll(x => x > 5).ToList();  
+            //int count = ID.Employee.Count(x => x.ID > 5);
+           
+
+            //foreach (Employee firstName in Employee.FindAll(e => (e.ID > 5)).Take(2).ToLost())
+            {
+              //  Console.WriteLine("These individuals have an ID number greater than 5.");
+            }
+
+            //for (int i = 0; i < emList.ID; i++) ;
+            //int ID = emList.ID (x => 5 );
             Console.ReadLine();
         }
         
         //foreach (Person person in listPersonsInCity.FindAll(e => (e.Age >= 60)).Take(2).ToList())  
         // Console.WriteLine("Name : " + person.Name + " \t\tAge: " + person.Age);  
-}
+    }
 
 }
-}
+
