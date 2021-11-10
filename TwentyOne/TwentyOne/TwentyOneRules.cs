@@ -41,7 +41,10 @@ namespace TwentyOne
 
         public static bool CheckForBlackJack(List<Card> Hand)
         {
-        
+            int[] possibleValues = GetAllPossibleHandValues(Hand);
+            int value = possibleValues.Max();
+            if (value == 21) return true;
+            else return false;
         }
 
     }
