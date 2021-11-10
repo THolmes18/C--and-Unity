@@ -50,6 +50,20 @@ namespace TwentyOne
                         }
                     }
                 }
+                Console.Write("Dealer: ");
+                Dealer.Deal(Dealer.Hand);
+                if (i == 1)
+                {
+                    bool blackJack = TwentyOneRules.CheckForBlackJack(Dealer.Hand);
+                    if (blackJack)
+                    {
+                        Console.WriteLine("Dealer has Blackjack! Everyone loses!");
+                        foreach (KeyValuePair<Player, int> entry in Bets)
+                        {
+                            Dealer.Balance = +entry.Value;
+                        }
+                    }
+                }
             }
         }
         public override void ListPlayers() //step 5
