@@ -56,7 +56,7 @@ namespace LambdaAssignment
             {
                 if (employee.firstName == "Joe")
                 {
-                    
+                    Console.WriteLine(Console.ReadLine());
                 }
             }
 
