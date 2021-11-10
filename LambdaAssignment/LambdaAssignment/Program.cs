@@ -15,6 +15,7 @@ namespace LambdaAssignment
             
             List<Employee> emList = new List<Employee>();
             List<Employee> newList = new List<Employee>();
+            List<Employee> fList = new List<Employee>();
 
             Employee employee = new Employee() { firstName = "T'Ana", lastName = "Holmes", ID = 0 };
             Employee employee1 = new Employee() {firstName = "Rachael", lastName = "Holmes", ID = 2 };
@@ -41,30 +42,26 @@ namespace LambdaAssignment
             newList.Add(employee6);
 
 
-            employee.Names();
-            employee1.Names();
-            employee2.Names();
-            employee3.Names();
-            employee4.Names();
-            employee5.Names();
-            employee6.Names();
-            employee7.Names();
-            employee8.Names();
-            employee9.Names();
-
             foreach (Employee em in emList)
             {
-                if (employee.firstName == "Joe")
+                if (em.firstName == "Joe")
                 {
-                    Console.WriteLine(Console.ReadLine());
+                    fList.Add(em);
                 }
             }
 
-            List<Employee> idEmpList = emList.Where(x => x.ID > 5).ToList();
-            Console.ReadLine();
+           
+
+            List<Employee> idEmpList = emList.Where(x => x.firstName == "Joe").ToList(); //x correlates to em
+            
 
             List<Employee> idList = newList.Where(x => x.ID > 5).ToList();
-            Console.ReadLine();
+
+            //foreach( Employee c in fList) //checks fList
+            //{
+            //    Console.WriteLine(c.firstName);
+            //}
+
 
             //LAMBDA  the first part of our statement should be defining a list of Employee objects: List<Employee> idEmpList = 
             //LAMBDA Expressions--where returns all instances
