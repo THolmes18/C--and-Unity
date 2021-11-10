@@ -8,9 +8,12 @@ namespace TwentyOne
 {
     public abstract class Game //creating it can never instantituated *abstract*(step1)
     {
-        public List<Player> Players { get; set; }
+        private List<Player> _players = new List<Player>(); //players always = empty list not a null.
+        private Dictionary<Player, int> _bets = new Dictionary<Player, int>();
+        
+        public List<Player> Players { get { return _players; } set { _players = value; } }
         public string Name { get; set; }
-        public Dictionary<Player, int> Bets { get; set; }
+        public Dictionary<Player, int> Bets { get { return _bets; } set { _bets = value; } }
 
         public abstract void Play(); //can only use abstract in a class and method must be implemented (step 2)
 
