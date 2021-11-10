@@ -10,6 +10,11 @@ namespace TwentyOne
     {
          public Suit Suit { get; set; } //The card class has a property of data type string called suit and you can get or set this property. Public means other parts of the program can use it as well
          public Face Face { get; set; }
+
+        public override string ToString()
+        {
+            return string.Format("{0} of {1}", Face, Suit);
+        }
     }
     
     public enum Suit //defining ENUM
