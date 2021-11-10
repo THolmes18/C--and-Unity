@@ -6,15 +6,33 @@ using System.Threading.Tasks;
 
 namespace TwentyOne
 {
-    public class Card
+    public struct Card
     {
-        public Card() //constructor values assigned to an object upon creation default values given
-        {
-            Suit = "Spades";
-            Face = "Two";
-        }
-        public string Suit { get; set; } //The card class has a property of data type string called suit and you can get or set this property. Public means other parts of the program can use it as well
-        public string Face { get; set; }
+         public Suit Suit { get; set; } //The card class has a property of data type string called suit and you can get or set this property. Public means other parts of the program can use it as well
+         public Face Face { get; set; }
+    }
+    
+    public enum Suit //defining ENUM
+    {
+        Clubs,
+        Diamonds,
+        Hearts,
+        Spades
+    }
+    public enum Face
+    {
+        Two,
+        Three,
+        Four,
+        Five,
+        Six,
+        Seven,
+        Eight,
+        Nine,
+        Jack,
+        Queen,
+        King,
+        Ace
     }
 }
 

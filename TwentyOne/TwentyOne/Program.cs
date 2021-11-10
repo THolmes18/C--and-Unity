@@ -10,68 +10,25 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to the Grand Hotel and Casino. Let's start by telling me your name.");
+            string playerName = Console.ReadLine();
+            Console.WriteLine("And how much money did you bring today?");
+            int bank = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Hello, {0}. Would you like to join a game of 21 right now?", playerName);
+            string answer = Console.ReadLine().ToLower();
+            if (answer == "yes" || answer == "yeah" || answer = "y" || answer = "ya")
+            {
+                Player player = new Player(playerName, bank);
+                Game game = new TwentyOneGame();
+                game += player;
+                player.isActivelyPlaying = true;
+                while (player.isActivelyPlaying && player.Balance > 0)
+                {
+                    game.Play();
+                }
+            }
 
-            Game game = new TwentyOneGame(); //overload operators..5
-            game.Players = new List<Player>(); //overload operators..8 instantuate.
-            Player player = new Player(); //overload operators..6
-            game = game + player; //method in a sense overload operators..7 game += player; is a shortcut
-            player.Name = "T'Ana";
-            game = game - player;
-
-            //TwentyOneGame game = new TwentyOneGame(); //step 6 of abstract
-            //game.Players = new List<string>() { "T'Ana", "Ha'Mil", "Holmes" };
-            //game.ListPlayers();
-            
-            
-            Console.ReadLine();
-
-            //******Card card = new Card() { Face = "King", Suit = "Spades" }; //object initialization
-            //List<Game> games = new List<Game>(); //POLYMORPHISM step 2
-            //Game game = new TwentyOneGame();//POLYMORPHISM (this is all it is) STEP 1
-            //games.Add(game); //step 3 POLYMORPHISM
-            ////POLYMORPHISM is the ability of a class to morph into its inheriting class.
-
-            Game game = new Game(); //if this was TwentyOneGame game = new TwentyOneGame then we can access Play
-            game.Players = new List<string>() { "T'Ana", "Holmes", "Ha'Mil" };
-            game.ListPlayers();
-            game.Play();
-            Console.ReadLine(); //super class method--call method from class you inheritent from (game)
-
-            //    Game game = new Game();
-            //game.Dealer = "T'Ana";
-            //game.Name = "TwentyOne"; 
-            //Deck deck = new Deck();
-            //deck.Shuffle(3);//shuffle is the method, we're calling it to shuffle on itself
-            ////deck = Shuffle(deck); //reassigning variable makes it shuffle (comment it out and it will stop shuffle)
-            
-            //foreach(Card card in deck.Cards)
-            //{
-            //    Console.WriteLine(card.Face + " of " + card.Suit);
-            //}
-
-            //Console.WriteLine(deck.Cards.Count);
-            //Console.ReadLine();
         }
-
-       
-            
-          
-        }
-
-        //public static Deck Shuffle(Deck deck, int times)
-        //{
-        //    for (int i = 0; i < times; i++)
-        //    {
-        //        deck = Shuffle(deck);
-        //    }
-        //    return deck;
-        //}
     }
+}
 
-
-//deck uses constructor which is a default
-//method has to be used apart of a class (shuffling)
-//static object program should be created if not use static
-//overload method helps when sharing
-
-//inherit keeps you from repeating code
