@@ -30,7 +30,26 @@ namespace TwentyOne
                 {
                     return;
                 }
-                Bets[player] = bet;
+                Bets[player] = bet; //adds to dictionary
+            }
+            for (int i = 0; i < 2; i++)
+            {
+                Console.WriteLine("Dealing...");
+                foreach (Player player in Player)
+                {
+                    Console.Write("{0}: ", player.Name);
+                    Dealer.Deal(player.Hand);
+                    if (i == 1) //checking for BlackJack..face card..also need the value for each card
+                    {
+                        bool blackJack = TwentyOneRules.CheckForBlackJack(player.Hand);
+                        if (blackJack)
+                        {
+                            Console.WriteLine("Blackjack! {0} wins {1}", player.Name, Bets[player]);
+                            player.Balance += Convert.ToInt32((Bets[player] * 1.5) + Bets[player]); //winning your bed plus 1.5
+                            return;
+                        }
+                    }
+                }
             }
         }
         public override void ListPlayers() //step 5
