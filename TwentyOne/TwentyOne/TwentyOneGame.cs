@@ -8,9 +8,14 @@ namespace TwentyOne
 {
     public class TwentyOneGame : Game, IWalkAway 
     {
-       public override void Play() //implement add overide (step3 somewhat)
+        public TwentyOneDealer Dealer { get; set; }
+        public override void Play() //implement add overide 
         {
-            throw new NotImplementedException(); //catch against accidental call until defined
+            Dealer = new TwentyOneDealer();
+            foreach (Player player in Players)
+            {
+
+            }
         }
         public override void ListPlayers() //step 5
         {
