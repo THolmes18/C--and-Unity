@@ -11,8 +11,12 @@ namespace DateTimeSubmission
     {
         static void Main(string[] args)
         {
-            using (StreamWriter file = new StreamWriter(@"C:\Users\T'ana\Documents\GitHub\C--and-Unity\DateTimeSubmission\log.txt", true))
-            file.WriteLine(DateTime.Now);
+            DateTime now = DateTime.Now;
+            Console.WriteLine(now.ToString("F"));
+
+           
+            Console.WriteLine("Please pick a number.");
+            Console.ReadLine();
         }
     }
 }
