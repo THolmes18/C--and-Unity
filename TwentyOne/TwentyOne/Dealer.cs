@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace TwentyOne
 {
@@ -16,8 +17,13 @@ namespace TwentyOne
         public void Deal(List<Card> Hand) //Method
         {
             Hand.Add(Deck.Cards.First()); //hand is a list Deck is composed of cards its a property and first is a method available to a list takes first item.
-            Console.WriteLine(Deck.Cards.First().ToString() + "\n"); //Writing to the console the card that I'm putting into the deck
-            Deck.Cards.RemoveAt(0); 
+            string card = string.Format(Deck.Cards.First().ToString() + "\n"); //Writing to the console the card that I'm putting into the deck this is logging!!
+            Console.WriteLine(card);
+            using (StreamWriter file = new StreamWriter(@"C:\Users\T'ana\Documents\GitHub\C--and-Unity\TwentyOne\TwentyOne\log.txt", true))
+            {
+               file.WriteLine(card);
+            }
+                Deck.Cards.RemoveAt(0); 
         }
     }
 }
